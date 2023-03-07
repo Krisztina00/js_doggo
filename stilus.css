@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Life+Savers:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Caveat Brush", cursive;
+}
+
+nav {
+  font-family: "Life Savers", cursive;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  padding: 5px 10px 5px 20px;
+}
+
+nav {
+  font-family: "Life Savers", cursive;
+  background-color: rgb(224, 125, 186);
+  color: whitesmoke;
+  list-style-type: none;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  width: 20%;
+}
+nav li a {
+  align-items: center;
+  background-color: rgb(224, 125, 186);
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+nav li a:hover:not(.active) {
+  background-color: rgb(99, 75, 75);
+}
+
+nav > li {
+  display: none;
+}
+
+#tartalom {
+  padding: 20px;
+}
+#tartalom h1,
+#tartalom p {
+  text-align: center;
+}
+
+#chat,
+#help,
+#info {
+  display: none;
+}
+
+.active {
+  background-color: rgb(201, 151, 229);
+}
+
+img {
+  width: 100%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td {
+  display: block;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    background-color: white;
+    margin-top: 10px;
+    overflow: visible;
+  }
+  nav li {
+    float: none;
+    width: 50%;
+  }
+  nav li a {
+    justify-content: flex-start;
+  }
+  nav > li {
+    display: block;
+    width: 100%;
+  }
+  #rendes {
+    display: none;
+  }
+  nav > li a:hover {
+    background-color: rgb(224, 125, 186);
+  }
+}/*# sourceMappingURL=stilus.css.map */

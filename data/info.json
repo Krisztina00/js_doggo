@@ -1,0 +1,10 @@
+{
+  "cim": "Contact Informations",
+  "tartalom": {
+    "varos": "Szeged",
+    "utca": "Lidicei tér",
+    "hazszam": 1,
+    "iranyitoszam": 6748
+  },
+  "kep": "./images/kep4.jpg"
+}

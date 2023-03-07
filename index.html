@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <link href="./icon/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./stilus.css" />
+    <title>Meng Di</title>
+  </head>
+  <body>
+    <header>
+      <h1>Montika a legjobb kutya</h1>
+      <form action="">
+        <label for="nev">Keresés az:</label>
+        <input type="text" name="" id="nev" />
+      </form>
+    </header>
+    <nav>
+      <li>
+        <a href="#" id="valto" onclick="navmozgat()">
+          <span class="material-symbols-outlined"> menu </span><span></span>
+        </a>
+      </li>
+      <div id="rendes">
+        <li>
+          <a href="#" onclick="navmozgat('Home')" class="active"
+            ><span class="material-symbols-outlined"> star </span
+            ><span>Szia!</span></a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="navmozgat('Chat')"
+            ><span class="material-symbols-outlined"> allergy </span
+            ><span>Érdekesség</span></a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="navmozgat('Help')"
+            ><span class="material-symbols-outlined"> favorite</span
+            ><span>Tappmancs</span></a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="navmozgat('Info')"
+            ><span class="material-symbols-outlined"> flutter_dash </span
+            ><span>Információk</span></a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="navmozgat('QA')"
+          ><span class="material-symbols-outlined"> pets</span
+          ><span>Örök barátok</span></a>
+        </li>
+      </div>
+    </nav>
+    <div id="tartalom">
+      <div id="home"></div>
+    </div>
+    <footer>
+      <p>&copy; Kalapács Krisztina <p>&#128151;</p> </p>
+      <br>
+    </footer>
+    <script src="./gyak.js"></script>
+    <script src="./navmozgat.js"></script>
+    <script src="./oldalvalt.js"></script>
+    <script src="./tartalom/tartalomHome.js"></script>
+    <script src="./tartalom/tartalomChat.js"></script>
+    <script src="./tartalom/tartalomHelp.js"></script>
+    <script src="./tartalom/tartalomInfo.js"></script>
+    <script src="./tartalom/tartalomQA.js"></script>
+
+  </body>
+</html>
